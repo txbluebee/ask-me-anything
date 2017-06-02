@@ -20,7 +20,7 @@ You will need the following things properly installed on your computer.
 ## Installation
 
 * `git clone <repository-url>` this repository
-* `cd ask-me-anything`
+* `cd question-channel`
 * `npm install`
 * `bower install tether` for Bootstap 4
 
@@ -51,21 +51,21 @@ Make use of the many generators for code, try `ember help generate` for more det
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
 
-  ## Technologies Used
+## Technologies Used
 
-  _HTML_
+_HTML_
 
-  _SCSS_
+_SCSS_
 
-  _Bootstrap_
+_Bootstrap_
 
-  _JavaScript_
+_JavaScript_
 
-  _jQuery_
+_jQuery_
 
-  _Ember.js_
+_Ember.js_
 
-  ### License
+### License
 
-  Copyright (c) 2017 Brian Fan
-  The website is licensed under the MIT license.
+Copyright (c) 2017 Brian Fan
+The website is licensed under the MIT license.
