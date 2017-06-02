@@ -1,11 +1,14 @@
-<div class="container">
-  <div class="jumbotron">
-    {{#link-to 'index'}}<h1>Ask Me Anything</h1>{{/link-to}}
+
+  <div class="cover">
+    {{#link-to 'index' class="social-icon"}}<img src="/assets/images/home.png" alt="Home">{{/link-to}}
+    <div class="cover-caption">
+      {{#link-to 'index' class="cover-title"}}Question Channel{{/link-to}}
+      <p>Question the Key to Success</p>
+      <div class="cover-icon">
+        <a href="https://github.com/txbluebee"><img src="/assets/images/github.png" target="_blank" alt="linkedin"></a>
+        <a href="https://www.linkedin.com/in/brian-fan-79460674/" target="_blank" class="social-icon"><img src="/assets/images/linkedin.png" alt="github"></a>
+        <a href="https://facebook.com" target="_blank"><img src="/assets/images/facebook.png" alt="facebook"></a>
+      </div>
+    </div>
   </div>
-  <nav class="nav">
-    {{#link-to 'index' class="nav-link"}}Home{{/link-to}}
-    <a href="https://github.com/txbluebee" class="nav-link" target="_blank">GitHub</a>
-    <a href="https://www.linkedin.com/in/brian-fan-79460674/" class="nav-link" target="_blank">Linkedin</a>
-  </nav>
   {{outlet}}
-</div>

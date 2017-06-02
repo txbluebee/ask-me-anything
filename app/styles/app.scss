@@ -1,1 +1,44 @@
 @import "bootstrap";
+@import "main";
+
+* {
+  border: 1px solid;
+}
+
+body {
+  background-color: #424242;
+}
+
+.cover {
+  height: 30rem;
+  background: url('/assets/images/cover.jpg') no-repeat center center;
+  background-size: cover;
+  .cover-caption {
+    padding-top: 5rem;
+    text-align: center;
+  }
+    .cover-title {
+      font-size: 4rem;
+      color: #fff;
+      &:link {
+        text-decoration: none;
+      }
+      &:hover {
+        color: #A9D3FF;
+      }
+    }
+    p {
+      margin-top: 1rem;
+      color: #fff;
+      font-size: 1.2rem;
+    }
+    // cover icons
+    .cover-icon {
+      margin-top: 2rem;
+    }
+
+}
+
+.social-icon {
+  margin: 0 1rem;
+}
