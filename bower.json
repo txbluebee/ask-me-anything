@@ -1,0 +1,17 @@
+{
+  "name": "ask-me-anything",
+  "description": "Small description for ask-me-anything goes here",
+  "main": "",
+  "authors": [
+    "Brian Fan <kuomu.fan@yahoo.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
