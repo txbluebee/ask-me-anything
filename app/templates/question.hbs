@@ -1,7 +1,19 @@
-<div class="Question-page">
+<div class="question-page">
   {{edit-question question=model updateQuestion='updateQuestion'}}
   <h1>{{model.content}}</h1>
   <p>{{model.date}}</p>
   <p>{{model.category}}</p>
   <p>{{model.author}}</p>
 </div>
+
+<div class="anwsers">
+  <h3>Answers</h3>
+  {{#each model.answers as |answer|}}
+    <div class="each-answer">
+      <h4>{{answer.content}}</h4>
+      <p>{{answer.author}}</p>
+    </div>
+  {{/each}}
+</div>
+
+{{new-answer answer=model saveAnswer="saveAnswer"}}
