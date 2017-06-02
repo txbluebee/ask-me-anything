@@ -1,9 +1,8 @@
 
 {{#each model as |question|}}
   <div class="question-content">
-    <h3>{{question.author}}</h3>
-    <p><b>Category:</b> {{question.category}}</p>
-    <p><b>Question:</b> {{question.question}}</p>
-    <!-- {{#link-to 'question' question.id}}Read More{{/link-to}} -->
+
+    <h3><b>Question:</b> {{question.question}}</h3>
+    <p>{{question.author}}</p>
   </div>
 {{/each}}
