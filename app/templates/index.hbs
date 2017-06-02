@@ -1,9 +1,18 @@
 
 {{new-question saveQuestion='saveQuestion'}}
-{{#each model as |question|}}
-  <div class="question-content">
 
-    {{#link-to 'question' question.id}}<h3>{{question.content}}</h3>{{/link-to}}
-    <p>{{question.author}}</p>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-10 offset-sm-1">
+      <div class="question-main">
+        {{#each model as |question|}}
+          <div class="quesion-card">
+            {{#link-to 'question' question.id class="question-title"}}{{question.content}}{{/link-to}}
+            <p>Ask by: <b>{{question.author}}</b></p>
+          </div>
+        {{/each}}
+      </div>
+    </div>
   </div>
-{{/each}}
+</div>

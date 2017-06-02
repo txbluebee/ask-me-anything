@@ -1,0 +1,31 @@
+.ask-question {
+  text-align: center;
+  margin: 2rem 0;
+  color: #E57A44;
+  a {
+    font-size: 1.5rem;
+    font-weight: bolder;
+  }
+}
+
+.question-main {
+  border-top: 4px solid #E57A44;
+  padding-top: 2rem;
+  .quesion-card {
+    padding-bottom: 1rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 2px double #E57A44;
+    .question-title {
+      font-size: 2rem;
+      color: #F2EDC7;
+      &:link {
+        text-decoration: none;
+      }
+    }
+    p {
+      color: #fff;
+    }
+  }
+
+
+}
