@@ -1,7 +1,12 @@
-# ask-me-anything
+# Question Channel
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+#### Ember Independent Project, 06/02/2017
+
+#### By Brian Fan
+
+## Description
+
+Question Channel is web application let users to submit a question, then other users can respond with answers.
 
 ## Prerequisites
 
@@ -17,6 +22,7 @@ You will need the following things properly installed on your computer.
 * `git clone <repository-url>` this repository
 * `cd ask-me-anything`
 * `npm install`
+* `bower install tether` for Bootstap 4
 
 ## Running / Development
 
@@ -37,10 +43,6 @@ Make use of the many generators for code, try `ember help generate` for more det
 * `ember build` (development)
 * `ember build --environment production` (production)
 
-### Deploying
-
-Specify what it takes to deploy your app.
-
 ## Further Reading / Useful Links
 
 * [ember.js](http://emberjs.com/)
@@ -48,3 +50,22 @@ Specify what it takes to deploy your app.
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+
+  ## Technologies Used
+
+  _HTML_
+
+  _SCSS_
+
+  _Bootstrap_
+
+  _JavaScript_
+
+  _jQuery_
+
+  _Ember.js_
+
+  ### License
+
+  Copyright (c) 2017 Brian Fan
+  The website is licensed under the MIT license.
