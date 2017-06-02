@@ -6,6 +6,7 @@ module.exports = function(environment) {
     environment: environment,
     rootURL: '/',
     locationType: 'auto',
+
     EmberENV: {
       FEATURES: {
         // Here you can enable experimental features on an ember canary build
@@ -17,6 +18,15 @@ module.exports = function(environment) {
       }
     },
 
+    firebase: {
+      apiKey: "AIzaSyDYxSLrHZUNOb1YtHZUz63w_2YrVhoAlfw",
+      authDomain: "ask-me-anything-4ae05.firebaseapp.com",
+      databaseURL: "https://ask-me-anything-4ae05.firebaseio.com",
+      projectId: "ask-me-anything-4ae05",
+      storageBucket: "ask-me-anything-4ae05.appspot.com",
+      messagingSenderId: "728508082717"
+    },
+    
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
