@@ -10,6 +10,10 @@ export default Ember.Component.extend({
        question: this.get('question')
      };
      this.sendAction('saveAnswer', params);
+     // clear the form
+     this.set('author', '');
+     this.set('date', '');
+     this.set('content', '');
    }
   }
 });
