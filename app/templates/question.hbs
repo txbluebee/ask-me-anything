@@ -1,19 +1,32 @@
-<div class="question-page">
-  {{edit-question question=model updateQuestion='updateQuestion'}}
-  <h1>{{model.content}}</h1>
-  <p>{{model.date}}</p>
-  <p>{{model.category}}</p>
-  <p>{{model.author}}</p>
-</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-10 offset-sm-1">
+      <div class="question-detail">
+        {{edit-question question=model updateQuestion='updateQuestion'}}
+        <h1>{{model.content}}</h1>
+        <div class="d-flex justify-content-end">
+          <div class="mr-auto p-2 question-tag"> {{model.category}}</div>
+          <div>{{model.date}}</div>
+        </div>
+        <p>Asked by: {{model.author}}</p>
+      </div>
 
-<div class="anwsers">
-  <h3>Answers</h3>
-  {{#each model.answers as |answer|}}
-    <div class="each-answer">
-      <h6>{{answer.content}}</h6>
-      <p>{{answer.author}}</p>
+      <div class="answers">
+        <h3>Answers</h3>
+        {{#if model.answers}}
+          {{#each model.answers as |answer|}}
+            <div class="each-answer">
+
+              <h6>{{answer.content}}</h6>
+              <small class="pull-right">{{answer.author}} {{answer.date}}</small>
+            </div>
+          {{/each}}
+        {{else}}
+          <h5>No answers yet. Would you like to be first person to help {{model.author}}?</h5>
+        {{/if}}
+      </div>
+  
+      {{new-answer question=model saveAnswer="saveAnswer"}}
     </div>
-  {{/each}}
+  </div>
 </div>
-
-{{new-answer question=model saveAnswer="saveAnswer"}}

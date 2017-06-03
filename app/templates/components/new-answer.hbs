@@ -1,5 +1,5 @@
-<div class="comment-form">
-  <h3>Leave a comment</h3>
+<div class="answer-form">
+  <h3>Your Answer</h3>
   <form action="post">
     <div class="form-group row">
       <label for="author" class="col-2 col-form-label">Name:</label>
@@ -16,11 +16,10 @@
 
     <div class="form-group row">
       <label for="content" class="col-2 col-form-label">Content </label>
-      <div class="col-10">
-        {{textarea type="text" placeholder="Comment" value=content class="form-control" rows="3"
-              enter="commentSave"}}
+      <div class="col-8">
+        {{textarea type="text" placeholder="your answer..." value=content class="form-control" rows="3"}}
       </div>
     </div>
-    <button {{action 'saveAnswer'}} class="btn btn-secondary">Save</button>
+    <button {{action 'saveAnswer'}} class="btn btn-secondary">Submit Answer</button>
   </form>
 </div>
