@@ -8,6 +8,23 @@
 
 Question Channel is web application let users to submit a question, then other users can respond with answers.
 
+## Planning
+
+1. Configuration/dependencies
+  * Ember
+  * Bootstrap v4.0.0-alpha.6
+
+2. Specs
+  * Spec 1: Display all questions.
+  * Spec 2: Click individual question would lead to question's page with details.
+  * Spec 3: Add new question component and create form to collect user input
+  * Spec 4: Edit question
+  * Spec 5: Add new answer components to question
+  * Spec 6: Display all answers related to the question.
+
+3. UX/UI
+  * Use Bootstrap 4 to style project.
+
 ## Prerequisites
 
 You will need the following things properly installed on your computer.
